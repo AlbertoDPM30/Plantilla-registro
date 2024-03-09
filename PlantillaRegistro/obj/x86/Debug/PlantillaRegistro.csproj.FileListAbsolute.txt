@@ -1,0 +1,9 @@
+C:\Users\alber\OneDrive\Escritorio\Jhosnell proyecto final\PlantillaRegistro\PlantillaRegistro\bin\Debug\PlantillaRegistro.exe
+C:\Users\alber\OneDrive\Escritorio\Jhosnell proyecto final\PlantillaRegistro\PlantillaRegistro\bin\Debug\PlantillaRegistro.pdb
+C:\Users\alber\OneDrive\Escritorio\Jhosnell proyecto final\PlantillaRegistro\PlantillaRegistro\obj\x86\Debug\PlantillaRegistro.FormRegistro.resources
+C:\Users\alber\OneDrive\Escritorio\Jhosnell proyecto final\PlantillaRegistro\PlantillaRegistro\obj\x86\Debug\PlantillaRegistro.Properties.Resources.resources
+C:\Users\alber\OneDrive\Escritorio\Jhosnell proyecto final\PlantillaRegistro\PlantillaRegistro\obj\x86\Debug\PlantillaRegistro.csproj.GenerateResource.Cache
+C:\Users\alber\OneDrive\Escritorio\Jhosnell proyecto final\PlantillaRegistro\PlantillaRegistro\obj\x86\Debug\PlantillaRegistro.exe
+C:\Users\alber\OneDrive\Escritorio\Jhosnell proyecto final\PlantillaRegistro\PlantillaRegistro\obj\x86\Debug\PlantillaRegistro.pdb
+C:\Users\alber\OneDrive\Escritorio\Jhosnell proyecto final\PlantillaRegistro\PlantillaRegistro\obj\x86\Debug\PlantillaRegistro.plantilla.resources
+C:\Users\alber\OneDrive\Escritorio\Jhosnell proyecto final\PlantillaRegistro\PlantillaRegistro\obj\x86\Debug\PlantillaRegistro.csprojResolveAssemblyReference.cache

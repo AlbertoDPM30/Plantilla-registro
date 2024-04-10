@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(plantilla));
             this.label1 = new System.Windows.Forms.Label();
             this.lblFirstName = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -40,6 +41,7 @@
             this.lblSalary = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
             this.picUserPhoto = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto)).BeginInit();
             this.SuspendLayout();
             // 
@@ -180,12 +182,31 @@
             this.picUserPhoto.TabIndex = 0;
             this.picUserPhoto.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button1.FlatAppearance.BorderSize = 2;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(24, 376);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 38);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "Volver";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // plantilla
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(162)))), ((int)(((byte)(226)))));
             this.ClientSize = new System.Drawing.Size(424, 434);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.lblSalary);
             this.Controls.Add(this.label9);
@@ -198,9 +219,10 @@
             this.Controls.Add(this.lblFirstName);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.picUserPhoto);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "plantilla";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
-            this.Text = "plantilla";
+            this.Text = "RobSoft INC.";
             this.Load += new System.EventHandler(this.plantilla_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto)).EndInit();
             this.ResumeLayout(false);
@@ -222,5 +244,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label lblSalary;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button button1;
     }
 }
